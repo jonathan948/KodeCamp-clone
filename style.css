@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    font-family: poppins;
+}
+/* nav styling start */
+.hambuger{
+    margin: 0 auto;
+    display: block;
+    width: 28px;
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram{
+    margin: 20px;
+}
+
+.fa-whatsapp{
+    font-size: 30px !important;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 50px;
+    color: rgb(238, 206, 206);
+    margin-top: 10px;
+}
+
+span{
+    color: white;
+    margin: 10px;
+}
+
+.fa-bars, .fa-facebook, .fa-twitter, .fa-instagram{
+    color: white;
+    font-size: 30px !important;
+    cursor: pointer;
+    margin-top: 20px;
+}
+/* main styling start */
+.main-header{
+    color: white;
+    font-size: 70px;
+}
+
+.main-container{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.person-img{
+    width: 30%;
+    height: 450px !important;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.main-para{
+    color: gray;
+    text-align: justify;
+}
+
+.name{
+    text-align: center;
+    color: white;
+}
+
+.socail-icon{
+    padding: 20px;
+}
+
+.main-container .content{
+    width: 66%;
+    padding: 20px;
+    font-size: 16px;
+}
+
+/* collaborate styling start */
+.grid-container{
+    display: grid;
+    grid-column-gap: 40px;
+    place-items: center;
+    margin: 0 auto;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    width: 90%;
+}
+
+.item-1{
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+}
+
+.item1-para{
+    margin-top: 20px;
+}
+
+.item2-head{
+    font-size: 24px;
+    color: rgb(238, 206, 206);
+}
+.itme1-head{
+    font-size: 48px;
+    color: rgb(238, 206, 206);
+    line-height: 55px;
+    width: 100%;
+}
+
+.item2-para{
+    line-height: 30px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.item-2{
+    margin-top: 10%;
+    width: 100%;
+    padding-top: 20px;
+}
+
+/* one section styling start */
+.one{
+    border-bottom: solid 1px rgb(238, 206, 206);
+    place-items: center;
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 120px;
+}
+.one-header{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.one-para{
+    font-size: 50px;
+    color: rgb(238, 206, 206);
+    text-align: center;
+    padding: 25px;
+}
+
+.fa-long-arrow-down{
+    color: white;
+    font-size: 50px !important;
+    padding-bottom: 48px;
+}
+
+.arrow{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 70px;
+}
+
+.port{
+    color: rgb(238, 206, 206);
+    font-size: 40px;
+}
+
+/* portfolio styling satrt */
+.grid-container2{
+    display: grid;
+    grid-column-gap: 40px;
+    place-items: center;
+    margin: 0 auto;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    width: 90%;
+    margin-top: 50px;
+}
+
+.grid-container3{
+    display: grid;
+    grid-column-gap: 40px;
+    place-items: center;
+    margin: 0 auto;
+    grid-template-columns: auto auto auto;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    width: 90%;
+}
+
+.card-6{
+    width: 87%;
+    height: 40%;
+    border-radius: 30px;
+}
+.card-3{
+    width: 47vh;
+    height: 45vh;
+    border-radius: 30px;
+}
+
+.card-4{
+    width: 47vh;
+    height: 45vh;
+    border-radius: 30px;
+}
+
+.card-1{
+    width: 47vh;
+    height: 45vh;
+    border-radius: 30px;
+}
+
+.card-2{
+    width: 47vh;
+    height: 45vh;
+    border-radius: 30px;
+}
+
+.card-6{
+    width: 47vh;
+    height: 45vh;
+    border-radius: 30px;
+}
+
+.card-5{
+    width: 47vh;
+    height: 45vh;
+    border-radius: 30px;
+}
+
+.btn{
+    color: white;
+    border: solid 2px rgb(238, 206, 206);
+    background: none;
+    margin: 0 auto;
+    display: block;
+    padding: 23px;
+    width: 23%;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background: white;
+    color: black;
+    transition: all 0.3 ease;
+}
+
+.button{
+    padding-bottom: 40px;
+    margin-top: 20px;
+}
+
+/* view more styling start */
+
+h5{
+    font-size: 20px;
+    color: rgb(238, 206, 206);
+}
+
+.jj{
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.item-7{
+    margin-top: 22%;
+}
+
+/* info styling start */
+
+.info{
+    color: rgb(238, 206, 206);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+a{
+    color: white;
+    text-align: center !important;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 auto;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+a:hover{
+    color: rgb(238, 206, 206);
+}
+
+.infoma{
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+}
+
+.fa-phone{
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.give-info{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.loca{
+    color: rgb(238, 206, 206);
+    font-size: 30px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.locapara{
+    text-align: center;
+    color: white;
+    line-height: 20px;
+}
+
+.dash{
+    background: rgb(238, 206, 206);
+    padding: 4px;
+    width: 170px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.under-dash{
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+/* footer section styling */
+
+.footer-para{
+    color: white;
+    text-align: center;
+}
+
+.box{
+    background: rgb(44, 42, 42);
+    padding-bottom: 100px;
+    margin-top: 50px;
+    padding: 60px;
+}
